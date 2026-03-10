@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.background{
+    background-color: skyblue;
+    height:100vh;
+}
+.form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+form{
+    width:500px;
+    height:fit-content;
+    border:2px solid red;
+    padding:15px;
+}
+.form-data{
+    margin-top: 15px;
+}
+.form-data input[type="text"],input[type="password"],input[type="tel"]
+{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+}
+.form-data button{
+    padding:10px 25px;
+    background-color: navy;
+    color:white;
+    border: none;
+    cursor:pointer;
+}
+.form-data label{
+    text-align:center;
+    text-transform:capitalize;
+
+}
